@@ -5,12 +5,14 @@ requires-python = ">=3.14"
 dependencies = [
     "arrow>=1.4.0",
     "ipykernel>=7.3.0",
-    "numpy>=2.5.1",
+    "numpy==2.5.2",
     "pandas>=3.0.5",
     "pandas-stubs~=3.0.5",
     "ollama>=0.6.2",
-    "pyarrow>=25.0.0",
+    "pyarrow==25.0.1",
     "matplotlib>=3.11.1",
     "seaborn>=0.13.2",
     "scikit-learn>=1.9.0",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
 ]
